@@ -18,6 +18,7 @@ llm = ChatGoogleGenerativeAI(
     **llm_config,
     temperature=1,
     max_output_tokens=8000,
+    google_api_key=api_key
 )
 
 memory = ConversationBufferMemory()
