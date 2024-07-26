@@ -61,7 +61,7 @@ if user_input:
                 if role == "You":
                     st.markdown(f"""
                     <div style='display: flex; justify-content: flex-end;'>
-                        <div style='background-color:#e1f5fe;padding:10px;border-radius:10px;max-width:70%;'>
+                        <div style='background-color:#e1f5fe;padding:10px;border-radius:10px;max-width:70%;color:#000;'>
                              {text}
                         </div>
                     </div>
@@ -69,7 +69,7 @@ if user_input:
                 else:
                     st.markdown(f"""
                     <div style='display: flex; justify-content: flex-start;'>
-                        <div style='background-color:#fff9c4;padding:10px;border-radius:10px;max-width:70%;'>
+                        <div style='background-color:#fff9c4;padding:10px;border-radius:10px;max-width:70%;color:#000;'>
                             {text}
                         </div>
                     </div>
@@ -93,7 +93,7 @@ if user_input:
                 if role == "You":
                     st.markdown(f"""
                     <div style='display: flex; justify-content: flex-end;'>
-                        <div style='background-color:#e1f5fe;padding:10px;border-radius:10px;max-width:70%;'>
+                        <div style='background-color:#e1f5fe;padding:10px;border-radius:10px;max-width:70%;color:#000;'>
                             {text}
                         </div>
                     </div>
@@ -101,7 +101,7 @@ if user_input:
                 else:
                     st.markdown(f"""
                     <div style='display: flex; justify-content: flex-start;'>
-                        <div style='background-color:#fff9c4;padding:10px;border-radius:10px;max-width:70%;'>
+                        <div style='background-color:#fff9c4;padding:10px;border-radius:10px;max-width:70%;color:#000;'>
                              {text}
                         </div>
                     </div>
